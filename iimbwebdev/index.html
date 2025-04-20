@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Special+Gothic:regular" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Special+Gothic+Expanded+One:regular" rel="stylesheet" />
+
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="profile-container">
+                <div class="profile-image-wrapper">
+                    <img src="resumepic.jpg" alt="My Profile" class="profile-image">
+                    <div class="profile-shimmer"></div>
+                </div>
+            </div>
+            <div class="header-content">
+                <h1>V AADITHYA NARAYANAN</h1>
+                <h2>Student at IIM Bangalore, Student at SRM Institute Of Science and Technology Chennai</h2>
+                <p>I’m pursuing engineering and I'm also keen on entrepreneurship. I enjoy coming up with ideas, solving real problems, exploring new tech, and learning something new every chance I get.</p>
+                <div class="social-links">
+                    <a href=" https://www.linkedin.com/in/aadithya-narayanan-v-9b1250330/" title="LinkedIn" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/AadithyaNarayan6" title="GitHub" class="social-link">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="mailto:aadithyan24@iimb.ac.in" title="Email" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section class="about">
+        <div class="container">
+            <h2 class="section-title">About <span class="highlight">Me</span></h2>
+            <div class="shimmer-line"></div>
+            <p>I’m currently pursuing a degree in Computer Science Engineering and I also have a strong interest in entrepreneurship. My passion lies at the intersection of technology and innovation, and I’m always eager to explore ideas that have the potential to make a real world impact. Throughout my time in college, I’ve actively participated in various tech-based events, from hackathons to coding competitions and tech fests, which have helped me build both technical and teamwork skills.
+
+                Beyond academics, I enjoy traveling and photography, capturing moments and exploring new places gives me a fresh perspective and inspires creativity in everything I do. I believe in continuous learning and stepping out of my comfort zone, whether that’s by taking on new projects, networking with like-minded people, or venturing into entrepreneurial opportunities. </p>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="experience">
+        <div class="container">
+            <h2 class="section-title">Work <span class="highlight">Experience</span></h2>
+            <div class="shimmer-line"></div>
+            
+            <div class="experience-item">
+                <div class="experience-date">September 2024 - Present</div>
+                <h3 class="experience-title">Member</h3>
+                <div class="experience-company">Chipset Club SRMIST, Chennai</div>
+                <p>I’m currently a member of the chipset club which focuses mainly on coding and coducting tech related events and hackathons.</p>
+                <ul>
+                    <li>Been a part of hackathons</li>
+                    <li>Event orgainsing commitee</li>
+                    <li>Sucessfully been part of, and running such events</li>
+                </ul>
+            </div>
+
+            
+    <!-- Skills -->
+    <section class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & <span class="highlight">Expertise</span></h2>
+            <div class="shimmer-line"></div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Technical Skills</h3>
+                    <ul class="skill-list">
+                        <li>Web development</li>
+                        <li>Data Science</li>
+                        <li>Video editing</li>
+                        <li>Java</li>
+                        <li>C++</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Soft Skills</h3>
+                    <ul class="skill-list">
+                        <li>Communication</li>
+                        <li>Leadership</li>
+                        <li>Problem Solving</li>
+                        <li>Teamwork</li>
+                        <li>Adaptability</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Tools & Software</h3>
+                    <ul class="skill-list">
+                        <li>Flutterflow</li>
+                        <li>Adobe Lightroom</li>
+                        <li>Bloomberg Terminal</li>
+                        <li>Figma</li>
+                        <li>Firebase</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section class="education">
+        <div class="container">
+            <h2 class="section-title"><span class="highlight">Education</span></h2>
+            <div class="shimmer-line"></div>
+            
+            <div class="education-item">
+                <div class="education-date">2024-2027</div>
+                <h3 class="education-degree">Bachelor of Business Administation, Digital Business and Entrepreneurship</h3>
+                <div class="education-school">IIM Bangalore</div>
+                <p>1st Year student</p>
+
+    
+    
+                
+            </div>
+
+            <div class="education-item">
+                <div class="education-date">2024 - 2028</div>
+                <h3 class="education-degree">BTech, Computer Science and Engineering</h3>
+                <div class="education-school">SRMIST Chennai</div>
+                <p>1st Year Student</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Aadithya Narayanan. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Add interactive effects
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add hover effect to experience items
+            const experienceItems = document.querySelectorAll('.experience-item');
+            experienceItems.forEach(item => {
+                item.addEventListener('mouseenter', function() {
+                    this.classList.add('active');
+                });
+                item.addEventListener('mouseleave', function() {
+                    this.classList.remove('active');
+                });
+            });
+
+            // Add hover effect to skill categories
+            const skillCategories = document.querySelectorAll('.skill-category');
+            skillCategories.forEach(category => {
+                category.addEventListener('mouseenter', function() {
+                    this.classList.add('active');
+                });
+                category.addEventListener('mouseleave', function() {
+                    this.classList.remove('active');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
